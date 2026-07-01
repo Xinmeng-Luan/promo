@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>PROMO Supplementary Material</title>
+<link rel="stylesheet" href="style.css">
+<script>
+    window.MathJax = {
+      tex: { inlineMath: [['\\(','\\)'], ['$', '$']] }
+    };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- ===================================================== -->
+<!-- TITLE -->
+<!-- ===================================================== -->
+<h1>Supplementary Audio & Visual Material</h1>
+
+<p class="paper-title">
+<b>PROMO:</b> Physics-Informed Reduced-Order MOdal Neural Operator for Long-time Non-smooth
+Friction-Induced Vibration in Bowed Strings
+</p>
+
+<p class="authors">
+Xinmeng Luan, Gary Scavone
+</p>
+
+<hr>
+
+<!-- ===================================================== -->
+<!-- INTRO -->
+<!-- ===================================================== -->
+<p>
+    This page presents 16 evaluation cases under different combinations of bow force $F_B$ and bow velocity $v_B$. For each case, both the ground truth and PROMO predicted audio and visual results are provided. The audio signals are synthesized from the displacement at the observation point u(t,0.77L). The accompanying figure shows the PROMO prediction (top), the ground truth (middle), and the point-wise absolute error (bottom).
+</p>
+
+<!-- ===================================================== -->
+<!-- GRID OF 16 CASES -->
+<!-- ===================================================== -->
+<h2>Evaluation Cases (16 Conditions)</h2>
+
+<div class="grid">
+
+<!-- ===================== CASE TEMPLATE ===================== -->
+<!-- Repeat this block for i = 0...15 -->
+<!-- ======================================================== -->
+<div class="card">
+    <h3 class="fb-meta">
+        1. \( F_B = 20 ,\quad v_B = 0.2\)
+    </h3>
+   
+
+    <!-- AUDIO -->
+    <div class="audio-row">
+
+        <div class="audio-block">
+            <div class="label">Ground truth audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_gt_eval_isphTrue_ds_ind0.wav" type="audio/wav">
+            </audio>
+        </div>
+
+        <div class="audio-block">
+            <div class="label">Prediction audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_pred_eval_isphTrue_ds_ind0.wav" type="audio/wav">
+            </audio>
+        </div>
+
+    </div>
+
+    <!-- IMAGES -->
+    <div class="img-row">
+
+        <div class="img-block">
+            <img src="assets/fig/start0_end40_isphTrue_ds_ind0.png">
+        </div>
+
+    </div>
+</div>
+
+<div class="card">
+    <h3 class="fb-meta">
+        2. \( F_B = 20,\quad v_B = 0.27 \)
+    </h3>
+   
+
+    <!-- AUDIO -->
+    <div class="audio-row">
+
+        <div class="audio-block">
+            <div class="label">Ground truth audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_gt_eval_isphTrue_ds_ind1.wav" type="audio/wav">
+            </audio>
+        </div>
+
+        <div class="audio-block">
+            <div class="label">Prediction audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_pred_eval_isphTrue_ds_ind1.wav" type="audio/wav">
+            </audio>
+        </div>
+
+    </div>
+
+    <!-- IMAGES -->
+    <div class="img-row">
+
+        <div class="img-block">
+            <img src="assets/fig/start0_end40_isphTrue_ds_ind1.png">
+        </div>
+
+    </div>
+</div>
+
+<div class="card">
+    <h3 class="fb-meta">
+        3. \( F_B = 20,\quad v_B = 0.33 \)
+    </h3>
+   
+
+    <!-- AUDIO -->
+    <div class="audio-row">
+
+        <div class="audio-block">
+            <div class="label">Ground truth audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_gt_eval_isphTrue_ds_ind2.wav" type="audio/wav">
+            </audio>
+        </div>
+
+        <div class="audio-block">
+            <div class="label">Prediction audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_pred_eval_isphTrue_ds_ind2.wav" type="audio/wav">
+            </audio>
+        </div>
+
+    </div>
+
+    <!-- IMAGES -->
+    <div class="img-row">
+
+        <div class="img-block">
+            <img src="assets/fig/start0_end40_isphTrue_ds_ind2.png">
+        </div>
+
+    </div>
+</div>
+
+<div class="card">
+    <h3 class="fb-meta">
+        4. \( F_B = 20 ,\quad v_B = 0.4\)
+    </h3>
+   
+
+    <!-- AUDIO -->
+    <div class="audio-row">
+
+        <div class="audio-block">
+            <div class="label">Ground truth audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_gt_eval_isphTrue_ds_ind3.wav" type="audio/wav">
+            </audio>
+        </div>
+
+        <div class="audio-block">
+            <div class="label">Prediction audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_pred_eval_isphTrue_ds_ind3.wav" type="audio/wav">
+            </audio>
+        </div>
+
+    </div>
+
+    <!-- IMAGES -->
+    <div class="img-row">
+
+        <div class="img-block">
+            <img src="assets/fig/start0_end40_isphTrue_ds_ind3.png">
+        </div>
+
+    </div>
+</div>
+
+<div class="card">
+    <h3 class="fb-meta">
+        5. \( F_B = 146.67 , \quad v_B = 0.2\)
+    </h3>
+   
+
+    <!-- AUDIO -->
+    <div class="audio-row">
+
+        <div class="audio-block">
+            <div class="label">Ground truth audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_gt_eval_isphTrue_ds_ind4.wav" type="audio/wav">
+            </audio>
+        </div>
+
+        <div class="audio-block">
+            <div class="label">Prediction audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_pred_eval_isphTrue_ds_ind4.wav" type="audio/wav">
+            </audio>
+        </div>
+
+    </div>
+
+    <!-- IMAGES -->
+    <div class="img-row">
+
+        <div class="img-block">
+            <img src="assets/fig/start0_end40_isphTrue_ds_ind4.png">
+        </div>
+
+    </div>
+</div>
+
+<div class="card">
+    <h3 class="fb-meta">
+        6. \( F_B = 146.67 ,\quad v_B = 0.27 \)
+    </h3>
+   
+
+    <!-- AUDIO -->
+    <div class="audio-row">
+
+        <div class="audio-block">
+            <div class="label">Ground truth audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_gt_eval_isphTrue_ds_ind5.wav" type="audio/wav">
+            </audio>
+        </div>
+
+        <div class="audio-block">
+            <div class="label">Prediction audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_pred_eval_isphTrue_ds_ind5.wav" type="audio/wav">
+            </audio>
+        </div>
+
+    </div>
+
+    <!-- IMAGES -->
+    <div class="img-row">
+
+        <div class="img-block">
+            <img src="assets/fig/start0_end40_isphTrue_ds_ind5.png">
+        </div>
+
+    </div>
+</div>
+
+<div class="card">
+    <h3 class="fb-meta">
+        7. \( F_B = 146.67 ,\quad v_B = 0.33 \)
+    </h3>
+   
+
+    <!-- AUDIO -->
+    <div class="audio-row">
+
+        <div class="audio-block">
+            <div class="label">Ground truth audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_gt_eval_isphTrue_ds_ind6.wav" type="audio/wav">
+            </audio>
+        </div>
+
+        <div class="audio-block">
+            <div class="label">Prediction audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_pred_eval_isphTrue_ds_ind6.wav" type="audio/wav">
+            </audio>
+        </div>
+
+    </div>
+
+    <!-- IMAGES -->
+    <div class="img-row">
+
+        <div class="img-block">
+            <img src="assets/fig/start0_end40_isphTrue_ds_ind6.png">
+        </div>
+
+    </div>
+</div>
+
+<div class="card">
+    <h3 class="fb-meta">
+        8. \( F_B = 146.67 ,\quad v_B = 0.4 \)
+    </h3>
+   
+
+    <!-- AUDIO -->
+    <div class="audio-row">
+
+        <div class="audio-block">
+            <div class="label">Ground truth audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_gt_eval_isphTrue_ds_ind7.wav" type="audio/wav">
+            </audio>
+        </div>
+
+        <div class="audio-block">
+            <div class="label">Prediction audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_pred_eval_isphTrue_ds_ind7.wav" type="audio/wav">
+            </audio>
+        </div>
+
+    </div>
+
+    <!-- IMAGES -->
+    <div class="img-row">
+
+        <div class="img-block">
+            <img src="assets/fig/start0_end40_isphTrue_ds_ind7.png">
+        </div>
+
+    </div>
+</div>
+
+<div class="card">
+    <h3 class="fb-meta">
+        9. \( F_B = 273.33 ,\quad v_B = 0.2 \)
+    </h3>
+   
+
+    <!-- AUDIO -->
+    <div class="audio-row">
+
+        <div class="audio-block">
+            <div class="label">Ground truth audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_gt_eval_isphTrue_ds_ind8.wav" type="audio/wav">
+            </audio>
+        </div>
+
+        <div class="audio-block">
+            <div class="label">Prediction audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_pred_eval_isphTrue_ds_ind8.wav" type="audio/wav">
+            </audio>
+        </div>
+
+    </div>
+
+    <!-- IMAGES -->
+    <div class="img-row">
+
+        <div class="img-block">
+            <img src="assets/fig/start0_end40_isphTrue_ds_ind8.png">
+        </div>
+
+    </div>
+</div>
+
+<div class="card">
+    <h3 class="fb-meta">
+        10. \( F_B = 273.33,\quad v_B = 0.27 \)
+    </h3>
+   
+
+    <!-- AUDIO -->
+    <div class="audio-row">
+
+        <div class="audio-block">
+            <div class="label">Ground truth audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_gt_eval_isphTrue_ds_ind9.wav" type="audio/wav">
+            </audio>
+        </div>
+
+        <div class="audio-block">
+            <div class="label">Prediction audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_pred_eval_isphTrue_ds_ind9.wav" type="audio/wav">
+            </audio>
+        </div>
+
+    </div>
+
+    <!-- IMAGES -->
+    <div class="img-row">
+
+        <div class="img-block">
+            <img src="assets/fig/start0_end40_isphTrue_ds_ind9.png">
+        </div>
+
+    </div>
+</div>
+
+<div class="card">
+    <h3 class="fb-meta">
+        11. \( F_B = 273.33,\quad v_B = 0.33 \)
+    </h3>
+   
+
+    <!-- AUDIO -->
+    <div class="audio-row">
+
+        <div class="audio-block">
+            <div class="label">Ground truth audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_gt_eval_isphTrue_ds_ind10.wav" type="audio/wav">
+            </audio>
+        </div>
+
+        <div class="audio-block">
+            <div class="label">Prediction audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_pred_eval_isphTrue_ds_ind10.wav" type="audio/wav">
+            </audio>
+        </div>
+
+    </div>
+
+    <!-- IMAGES -->
+    <div class="img-row">
+
+        <div class="img-block">
+            <img src="assets/fig/start0_end40_isphTrue_ds_ind10.png">
+        </div>
+
+    </div>
+</div>
+
+<div class="card">
+    <h3 class="fb-meta">
+        12. \( F_B = 273.33,\quad v_B = 0.4 \)
+    </h3>
+   
+
+    <!-- AUDIO -->
+    <div class="audio-row">
+
+        <div class="audio-block">
+            <div class="label">Ground truth audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_gt_eval_isphTrue_ds_ind11.wav" type="audio/wav">
+            </audio>
+        </div>
+
+        <div class="audio-block">
+            <div class="label">Prediction audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_pred_eval_isphTrue_ds_ind11.wav" type="audio/wav">
+            </audio>
+        </div>
+
+    </div>
+
+    <!-- IMAGES -->
+    <div class="img-row">
+
+        <div class="img-block">
+            <img src="assets/fig/start0_end40_isphTrue_ds_ind11.png">
+        </div>
+
+    </div>
+</div>
+
+<div class="card">
+    <h3 class="fb-meta">
+        13. \( F_B = 400,\quad v_B = 0.2\)
+    </h3>
+   
+
+    <!-- AUDIO -->
+    <div class="audio-row">
+
+        <div class="audio-block">
+            <div class="label">Ground truth audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_gt_eval_isphTrue_ds_ind12.wav" type="audio/wav">
+            </audio>
+        </div>
+
+        <div class="audio-block">
+            <div class="label">Prediction audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_pred_eval_isphTrue_ds_ind12.wav" type="audio/wav">
+            </audio>
+        </div>
+
+    </div>
+
+    <!-- IMAGES -->
+    <div class="img-row">
+
+        <div class="img-block">
+            <img src="assets/fig/start0_end40_isphTrue_ds_ind12.png">
+        </div>
+
+    </div>
+</div>
+
+<div class="card">
+    <h3 class="fb-meta">
+        14. \( F_B = 400 ,\quad v_B = 0.27\)
+    </h3>
+   
+
+    <!-- AUDIO -->
+    <div class="audio-row">
+
+        <div class="audio-block">
+            <div class="label">Ground truth audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_gt_eval_isphTrue_ds_ind13.wav" type="audio/wav">
+            </audio>
+        </div>
+
+        <div class="audio-block">
+            <div class="label">Prediction audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_pred_eval_isphTrue_ds_ind13.wav" type="audio/wav">
+            </audio>
+        </div>
+
+    </div>
+
+    <!-- IMAGES -->
+    <div class="img-row">
+
+        <div class="img-block">
+            <img src="assets/fig/start0_end40_isphTrue_ds_ind13.png">
+        </div>
+
+    </div>
+</div>
+
+<div class="card">
+    <h3 class="fb-meta">
+        15. \( F_B = 400 ,\quad v_B = 0.33\)
+    </h3>
+   
+
+    <!-- AUDIO -->
+    <div class="audio-row">
+
+        <div class="audio-block">
+            <div class="label">Ground truth audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_gt_eval_isphTrue_ds_ind14.wav" type="audio/wav">
+            </audio>
+        </div>
+
+        <div class="audio-block">
+            <div class="label">Prediction audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_pred_eval_isphTrue_ds_ind14.wav" type="audio/wav">
+            </audio>
+        </div>
+
+    </div>
+
+    <!-- IMAGES -->
+    <div class="img-row">
+
+        <div class="img-block">
+            <img src="assets/fig/start0_end40_isphTrue_ds_ind14.png">
+        </div>
+
+    </div>
+</div>
+
+<div class="card">
+    <h3 class="fb-meta">
+        16. \( F_B = 400,\quad v_B = 0.4 \)
+    </h3>
+   
+
+    <!-- AUDIO -->
+    <div class="audio-row">
+
+        <div class="audio-block">
+            <div class="label">Ground truth audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_gt_eval_isphTrue_ds_ind15.wav" type="audio/wav">
+            </audio>
+        </div>
+
+        <div class="audio-block">
+            <div class="label">Prediction audio</div>
+            <audio controls>
+                <source src="assets/audio/audio_pred_eval_isphTrue_ds_ind15.wav" type="audio/wav">
+            </audio>
+        </div>
+
+    </div>
+
+    <!-- IMAGES -->
+    <div class="img-row">
+
+        <div class="img-block">
+            <img src="assets/fig/start0_end40_isphTrue_ds_ind15.png">
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+<!-- ======================================================== -->
+<!-- (Repeat up to Case 16) -->
+
+</div>
+
+<hr>
+
+<!-- ===================================================== -->
+<!-- FOOTER -->
+<!-- ===================================================== -->
+<footer>
+<p>
+Supplementary material for <i>PROMO</i>: Physics-informed Reduced-Order Multi-
+scale neural Operator for long-time nonsmooth friction induced vibration in bowed strings.
+</p>
+</footer>
+
+</div>
+
+</body>
+</html>
